@@ -1,0 +1,42 @@
+body {
+  font-family: 'San Francisco', Arial, Helvetica, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  padding-top: 64px; /* Added to prevent content from being hidden under fixed navbar */
+}
+
+.hero {
+  background: linear-gradient(135deg, #e3e3e3 0%, #f5f5f7 100%);
+}
+
+.hero h1 {
+  color: #1d1d1f;
+}
+
+.hero .lead {
+  color: #6e6e73;
+}
+
+.card {
+  border: none;
+  border-radius: 18px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.card-img-top {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  object-fit: cover;
+  height: 220px;
+}
+
+.footer {
+  background: #fff;
+  color: #86868b;
+  font-size: 0.95rem;
+}
